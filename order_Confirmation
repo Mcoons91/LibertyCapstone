@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Order Confirmation</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<!--Melissa CSS/Script Pages-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.5/jquery.smooth-scroll.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+<link href="style.css" rel='stylesheet' type='text/css'>
+
+<!--Table Template CSS and included docs.-->
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="fixed-header-table/Table_Fixed_Header/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fixed-header-table/Table_Fixed_Header/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fixed-header-table/Table_Fixed_Header/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fixed-header-table/Table_Fixed_Header/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fixed-header-table/Table_Fixed_Header/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fixed-header-table/Table_Fixed_Header/vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fixed-header-table/Table_Fixed_Header/css/util.css">
+	<link rel="stylesheet" type="text/css" href="fixed-header-table/Table_Fixed_Header/css/main.css">
+<!--===============================================================================================-->
+
+  </head>
+
+  <!--Page Content-->
+  <body>
+      <!--Side Nav-->
+	  <div class="navbar">
+		<div class="logo"><a href="https://www.barnesandnoble.com/h/bn-educators" target="_blank"><img src="BNed_logo.png"></a></div>
+			<ul class="navbar-container">
+			  <li class="nav-item"><a href="#section-1" class="left-underline nav-button" data-scroll>Logout</a></li>
+		  <li class="nav-item"><a href="Interface 2 My Account.html" class="left-underline nav-button" data-scroll>My Account</a></li>
+		  <li class="nav-item"><a href="https://www.barnesandnoble.com/b/textbooks/_/N-8q9" target="_blank" class="left-underline nav-button" data-scroll>B&#38;N Online Store</a></li>
+			  <li class="nav-item"><a href="Interface 7 Quick Links.html" class="left-underline nav-button" data-scroll>Resources</a></li>
+			  <li class="nav-item"><a href="Interface 3 Math Book Inventory.html" class="left-underline nav-button" data-scroll>Textbooks</a></li>
+			</ul>
+		  </div>
+    
+    <!--Order Confirmation Items Ordered Table -->
+	<div class="limiter">
+		<div class="container-table100">
+			<h1>Thank you!</h1>
+			<div class="wrap-table100">
+				<h4 style="text-align: center;">Your order has been placed. Please review order details below.</h4>
+				<br>
+				<div class="table100 ver3 m-b-110">
+					<div class="table100-head">
+						<table>
+							<thead>
+								<tr class="row100 head">
+									<th class="cell100 column1">Item Name</th>
+									<th class="cell100 column2">Item ISBN</th>
+									<th class="cell100 column3">Item Price</th>
+									<th class="cell100 column4">Item Number</th>
+									<th class="cell100 column5">Description</th>
+								</tr>
+							</thead>
+						</table>
+					</div>
+
+					<div class="table100-body js-pscroll">
+						<table>
+							<tbody>
+
+								<tr class="row100 body">
+									<td class="cell100 column1">Textbook 1</td>
+									<td class="cell100 column2">111123450001</td>
+									<td class="cell100 column3">$210.00</td>
+									<td class="cell100 column4">1</td>
+									<td class="cell100 column5">E-textbook</td>
+								</tr>
+
+								<tr class="row100 body">
+									<td class="cell100 column1">Texbook 2</td>
+									<td class="cell100 column2">111123450002</td>
+									<td class="cell100 column3">$175.00</td>
+									<td class="cell100 column4">2</td>
+									<td class="cell100 column5">E-textbook</td>
+                                </tr>
+                                <tr class="row100 body">
+									<td class="cell100 column1">Total</td>
+									<td class="cell100 column5">$385.00</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script>
+		$('.js-pscroll').each(function(){
+			var ps = new PerfectScrollbar(this);
+
+			$(window).on('resize', function(){
+				ps.update();
+			})
+		});
+			
+		
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
