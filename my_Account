@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>My Account Interface</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.5/jquery.smooth-scroll.min.js"></script>
+  </head>
+  <body>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	<link href="style.css" rel='stylesheet' type='text/css'>
+    <div class="navbar">
+	<div class="logo"><a href="https://www.barnesandnoble.com/h/bn-educators" target="_blank"><img src="BNed_logo.png"></a></div>
+      <ul class="navbar-container">
+        <li class="nav-item"><a href="#section-1" class="left-underline nav-button" data-scroll>Logout</a></li>
+		<li class="nav-item"><a href="#section-1" class="left-underline nav-button" data-scroll>My Account</a></li>
+		<li class="nav-item"><a href="https://www.barnesandnoble.com/b/textbooks/_/N-8q9" target="_blank" class="left-underline nav-button" data-scroll>B&#38;N Online Store</a></li>
+        <li class="nav-item"><a href="#section-1" class="left-underline nav-button" data-scroll>Resources</a></li>
+        <li class="nav-item"><a href="#section-1" class="left-underline nav-button" data-scroll>Textbooks</a></li>
+      </ul>
+    </div>
+	
+<div class="sidenav">
+  <a href="#">Homepage</a>
+  <a href="#">My Textbooks</a>
+  <a href="#">Settings</a>
+  <a href="#">Quick Links</a>
+  <a href="#">Find Textbooks</a>
+  <a href="#">School Library</a>
+  <a href="#">Go Back to Course</a>
+  <a href="#">Contact Instructor</a>
+  <input type="text" placeholder="Search..">
+</div>
+
+
+<!-- Page content -->
+<div class="main">
+  ...
+</div>
+
+<!-- Page content -->
+<div class="main">
+  ...
+</div> 
+
+    <div class="row">
+	<h2>User Profile</h2>
+      <div class="col-3">
+	  
+	  <br>
+        <h3>Personal Information</h3>
+	<img src="profilepic.jpg" width="300" height="300">
+ <table style="width:100%">
+  <tr>
+    <td>First Name</td>
+    <td>Mary</td>
+  </tr>
+  <tr>
+    <td>Last Name</td>
+    <td>Smith</td>
+  </tr>
+    <tr>
+    <td>Student ID</td>
+    <td>9999999</td>
+  </tr>
+  <tr>
+    <td>Birthday</td>
+    <td>01/01/05</td>
+  </tr>
+  <tr>
+    <td>E-mail Address</td>
+	<td>Msmith@school.edu</td>
+  </tr>
+  <tr>
+    <td>Phone Number</td>  
+    <td>555-555-5555</td>
+  </tr>
+  <tr>
+    <td>Grade Level</td>
+    <td>9th</td>
+  </tr>
+</table> 
+<br>
+<button type="button">Edit Information</button>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-copyright">
+        <div class="container">
+         <strong> © 2011-2015 uplusion23, All rights reserved.</strong>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
