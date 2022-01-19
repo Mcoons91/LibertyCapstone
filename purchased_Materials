@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>User Textbook/Resource Interface</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.5/jquery.smooth-scroll.min.js"></script>
+  </head>
+  <body>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel='stylesheet' type='text/css'>
+    <div class="navbar">
+	    <div class="logo"><a href="https://www.barnesandnoble.com/h/bn-educators" target="_blank"><img src="BNed_logo.png"></a></div>
+        <ul class="navbar-container">
+          <li class="nav-item"><a href="#section-1" class="left-underline nav-button" data-scroll>Logout</a></li>
+          <li class="nav-item"><a href="#section-1" class="left-underline nav-button" data-scroll>My Account</a></li>
+          <li class="nav-item"><a href="https://www.barnesandnoble.com/b/textbooks/_/N-8q9" target="_blank" class="left-underline nav-button" data-scroll>B&#38;N Online Store</a></li>
+          <li class="nav-item"><a href="#section-1" class="left-underline nav-button" data-scroll>Resources</a></li>
+          <li class="nav-item"><a href="#section-1" class="left-underline nav-button" data-scroll>Textbooks</a></li>
+        </ul>
+    </div>
+	
+    <div class="sidenav">
+      <a href="#">Homepage</a>
+      <a href="#">My Textbooks</a>
+      <a href="#">Settings</a>
+      <a href="#">Quick Links</a>
+      <a href="#">Find Textbooks</a>
+      <a href="#">School Library</a>
+      <a href="#">Go Back to Course</a>
+      <a href="#">Contact Instructor</a>
+      <input type="text" placeholder="Search..">
+    </div>
+
+    <!-- Page content -->
+       <div class="main">
+         ...
+       </div>
+
+     <!-- Page content -->
+       <div class="main">
+         ...
+       </div> 
+
+       <div class="row">
+	       <h2>View all purchased textbooks and resources below:</h2>
+          <div class="col-3">
+	  
+	        <br>
+            <h3>Textbook List</h3>
+          <p>
+            <ul>
+              <li><a href="">Anatomy & Physiology 2016</a></li>
+              <li><a href="">Science is Cool Volume 1</a></li>
+              <li><a href="">Mathematics Level 10</a></li>
+              <li><a href="">English Composition</a></li>
+            </ul>
+		      </p>
+		   <br>
+		      <h3>Multimedia Resources</h3>
+            <p>
+              <ul>
+                <li><a href="">Video Lectures</a></li>
+                <li><a href="">PowerPoints<a/></li>
+                <li><a href="">Flash Cards</a></li>
+              </ul>
+            </p>
+         </div>
+        </div>
+
+    <footer>
+      <div class="footer-copyright">
+        <div class="container">
+         <strong> © 2011-2015 uplusion23, All rights reserved.</strong>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
