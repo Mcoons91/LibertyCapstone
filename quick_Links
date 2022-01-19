@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>User Textbook/Resource Interface</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	<link href="style.css" rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.5/jquery.smooth-scroll.min.js"></script>
+  </head>
+  <body>
+    
+    <div class="navbar">
+        <div class="logo"><a href="https://www.barnesandnoble.com/h/bn-educators" target="_blank"><img src="BNed_logo.png"></a></div>
+          <ul class="navbar-container">
+            <li class="nav-item"><a href="Interface 8 Logout Confirmation.html" class="left-underline nav-button" data-scroll>Logout</a></li>
+            <li class="nav-item"><a href="Interface 2 My Account.html" class="left-underline nav-button" data-scroll>My Account</a></li>
+            <li class="nav-item"><a href="https://www.barnesandnoble.com/b/textbooks/_/N-8q9" target="_blank" class="left-underline nav-button" data-scroll>B&#38;N Online Store</a></li>
+            <li class="nav-item"><a href="Interface 7 Quick Links.html" class="left-underline nav-button" data-scroll>Resources</a></li>
+            <li class="nav-item"><a href="Interface 3 Math Book Inventory.html" class="left-underline nav-button" data-scroll>Textbooks</a></li>
+          </ul>
+        </div>
+	
+<div class="sidenav">
+  <a href="Interface 5 Login Page.html">Homepage</a>
+  <a href="Interface 1 Purchased Materials.html">My Textbooks</a>
+  <a href="#">Settings</a>
+  <a href="Interface 7 Quick Links.html">Quick Links</a>
+  <a href="https://www.liberty.edu/library/">School Library</a>
+  <a href="https://www.liberty.edu/">Go Back to Course</a>
+  <a href="Interface 4 Instructor Contact.html">Contact Instructor</a>
+  <input type="text" placeholder="Search..">
+</div>
+
+<!-- Page content -->
+<div class="main">
+  ...
+</div>
+
+<!-- Page content -->
+<div class="main">
+	...
+</div> 
+
+      <div class="row">
+	<h2>Additional links and resources below:</h2>
+      <div class="col-3">
+
+        <p>
+		<ul>
+		<li><a href="https://www.barnesandnoble.com/">Barnes and Noble Main Website</a></li>
+		<li><a href="https://www.liberty.edu/">School Website</a></li>
+		<li><a href="https://www.elsevier.com/">Elsevier</a></li>
+		<li><a href="https://www.cengage.com/">Cengage</a></li>
+		</ul>
+		</p>
+		<br>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-copyright">
+        <div class="container">
+         <strong> © 2011-2015 uplusion23, All rights reserved.</strong>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
